@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
          bottomNavigationView.setOnNavigationItemSelectedListener(navlistener);
          getSupportFragmentManager().beginTransaction().replace(R.id.fragmentcontainer,new HomeFragment()).commit();
 
-  //hello to the 
+  //hello to the
+        //hello
     }
     private BottomNavigationView.OnNavigationItemSelectedListener navlistener=new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
